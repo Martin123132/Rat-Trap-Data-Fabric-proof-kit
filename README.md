@@ -64,14 +64,21 @@ validation results, restore benchmark results, streaming benchmark results, and
 proof ZIP SHA-256 values. Large `.gmw` archives and large proof ZIPs are
 intentionally not committed.
 
+## Request A Pilot
+
+Rat-Trap is available for private beta pilots on customer-approved data. Start
+with [PILOT.md](PILOT.md), then use the combined buyer proof report to decide
+whether a pilot scan is worth running on your own workload.
+
 ## Buyer Materials
 
 - [Public proof one-pager](docs/public-proof-one-pager.md)
+- [Combined buyer proof report](docs/combined-buyer-proof.md)
 - [Proof evidence checklist](docs/proof-evidence-checklist.md)
 - [Short pitch script](docs/pitch-script.md)
 - [v0.2 evidence packaging backlog](docs/v0.2-evidence-packaging-backlog.md)
 
 ## Private Beta Access
 
-The implementation is in private beta. Contact Martin Ollett for pilot access,
-commercial evaluation, or a customer-approved proof run.
+The implementation is in private beta. Contact Martin Ollett to request a pilot
+scan, commercial evaluation, or customer-run proof workflow.
