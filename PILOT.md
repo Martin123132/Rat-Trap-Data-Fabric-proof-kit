@@ -3,6 +3,18 @@
 Rat-Trap is in private beta. This public repo shows measured evidence, not the
 private implementation and not a commercial/open-source release.
 
+## AI Lab Pilot Scan
+
+The first recommended step is a narrow pilot scan for one approved AI workload:
+model checkpoints, dataset versions, eval outputs, logs, research exports, or
+backup snapshots. The point is to measure whether Rat-Trap creates enough
+storage, transfer, restore, or archive-inspection value on your real data to
+justify a deeper private beta review.
+
+Use the [pilot request checklist](docs/pilot-request-checklist.md) before
+sharing anything. Do not upload sensitive datasets, proof ZIPs, or private
+archives to this public repository.
+
 ## What The Public Proofs Show
 
 - Proof #1 used public GH Archive data to show compression, validation, restore,
@@ -32,6 +44,15 @@ The pilot report should include:
 Any ROI estimate must use the evaluator's own storage price assumption. This
 repo intentionally avoids quoting fixed cloud pricing.
 
+## Pilot Request Flow
+
+1. Review the public proof summaries and combined buyer proof report.
+2. Pick one approved workload that is large enough to matter.
+3. Choose customer-run proof, owner-run proof, or discovery-only review.
+4. Fill in the pilot request checklist.
+5. Run or approve the proof.
+6. Review the verification receipt, limitations, and next-step recommendation.
+
 ## Best-Fit Pilot Data
 
 Good pilot candidates include repeated:
@@ -59,6 +80,5 @@ local proof handling.
 ## Access
 
 Contact Martin Ollett for private beta access, pilot terms, and data-handling
-boundaries. Do not upload sensitive datasets, proof ZIPs, or private archives to
-this public repository.
-
+boundaries. Use the pilot request checklist so the first conversation can focus
+on whether the workload is likely to produce a meaningful measured result.

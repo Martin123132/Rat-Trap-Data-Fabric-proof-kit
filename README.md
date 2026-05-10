@@ -66,14 +66,17 @@ intentionally not committed.
 
 ## Request A Pilot
 
-Rat-Trap is available for private beta pilots on customer-approved data. Start
-with [PILOT.md](PILOT.md), then use the combined buyer proof report to decide
-whether a pilot scan is worth running on your own workload.
+Rat-Trap is available for private beta AI lab pilot scans on customer-approved
+data. Start with [PILOT.md](PILOT.md), use the
+[pilot request checklist](docs/pilot-request-checklist.md), then review the
+combined buyer proof report to decide whether a scan is worth running on your
+own workload.
 
 ## Buyer Materials
 
 - [Public proof one-pager](docs/public-proof-one-pager.md)
 - [Combined buyer proof report](docs/combined-buyer-proof.md)
+- [AI lab pilot request checklist](docs/pilot-request-checklist.md)
 - [Proof evidence checklist](docs/proof-evidence-checklist.md)
 - [Short pitch script](docs/pitch-script.md)
 - [v0.2 evidence packaging backlog](docs/v0.2-evidence-packaging-backlog.md)
