@@ -1,0 +1,60 @@
+{
+  "proof_id": "proof-1-public-compression",
+  "title": "Proof #1: Public Compression",
+  "mode": "public compression",
+  "created_at_utc": "2026-05-10T02:16:05.225471+00:00",
+  "proof_mode": null,
+  "target_logical_gb": 8.0,
+  "source_count": 18,
+  "failed_source_count": 0,
+  "analysis": {
+    "file_count": 18,
+    "chunk_count": 4168,
+    "unique_chunk_count": 4168,
+    "total_bytes": 8726574947,
+    "unique_raw_bytes": 8726574947,
+    "duplicate_bytes": 0,
+    "duplicate_byte_ratio": 0.0,
+    "compressed_unique_bytes": 1432861249,
+    "estimated_storage_saved_bytes": 7293713698,
+    "logical_to_compressed_ratio": 6.090314015464033,
+    "chunk_size": 2097152,
+    "compressor": "zlib-3",
+    "elapsed_seconds": 157.71996034100084,
+    "throughput_mb_per_second": 52.76637388923225
+  },
+  "archive": {
+    "archive_bytes": 1438494720,
+    "elapsed_seconds": 192.19994627600136,
+    "logical_bytes": 8726574947,
+    "logical_to_archive_ratio": 6.066462966926983,
+    "throughput_mb_per_second": 43.30027431535906
+  },
+  "validation": {
+    "ok": true,
+    "issue_count": 0,
+    "issues": [],
+    "file_count": 18,
+    "chunk_count": 4168,
+    "referenced_chunks": 4168,
+    "elapsed_seconds": 63.49428980100129
+  },
+  "restore_benchmark": {
+    "mode": "sample",
+    "elapsed_seconds": 21.92057733599904,
+    "restored_file_count": 3,
+    "restored_total_bytes": 1490619303,
+    "throughput_mb_per_second": 64.85072555438227
+  },
+  "streaming_benchmark": {
+    "manifest_latency_seconds": 0.05039967199991224,
+    "manifest_bytes": 286441,
+    "chunks_available": 4168,
+    "chunks_requested": 50,
+    "chunk_payload_bytes": 17545806,
+    "total_chunk_stream_seconds": 0.37207308600773104,
+    "average_chunk_latency_seconds": 0.007441461720154621,
+    "endpoint_shape": "/manifest and /chunks/<id>"
+  },
+  "proof_zip_sha256": "8f5c92a9c9e4bd30f6d295fa7a83775c098718963b062cf4c50d461a3994e23d"
+}
