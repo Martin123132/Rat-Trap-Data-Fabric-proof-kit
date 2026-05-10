@@ -1,0 +1,10 @@
+{
+  "manifest_latency_seconds": 0.05039967199991224,
+  "manifest_bytes": 286441,
+  "chunks_available": 4168,
+  "chunks_requested": 50,
+  "chunk_payload_bytes": 17545806,
+  "total_chunk_stream_seconds": 0.37207308600773104,
+  "average_chunk_latency_seconds": 0.007441461720154621,
+  "endpoint_shape": "/manifest and /chunks/<id>"
+}

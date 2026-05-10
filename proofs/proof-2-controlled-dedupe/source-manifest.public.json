@@ -1,0 +1,1295 @@
+[
+  {
+    "name": "Deterministic repeated logs/checkpoints/backups workload",
+    "url": null,
+    "source_page": null,
+    "kind": "generated-dedupe",
+    "notes": "Generated locally to isolate Rat-Trap chunk deduplication behavior.",
+    "raw_bytes": null,
+    "raw_sha256": null,
+    "target_bytes": 1073741824,
+    "chunk_size": 2097152,
+    "dataset_files_created": [
+      {
+        "path": "snapshot-0000/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0000/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0000/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0001/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0001/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0001/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0002/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0002/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0002/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0003/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0003/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0003/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0004/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0004/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0004/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0005/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0005/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0005/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0006/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0006/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0006/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0007/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0007/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0007/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0008/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0008/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0008/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0009/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0009/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0009/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0010/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0010/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0010/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0011/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0011/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0011/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0012/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0012/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0012/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0013/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0013/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0013/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0014/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0014/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0014/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0015/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0015/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0015/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0016/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0016/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0016/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0017/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0017/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0017/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0018/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0018/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0018/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0019/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0019/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0019/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0020/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0020/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0020/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0021/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0021/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0021/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0022/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0022/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0022/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0023/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0023/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0023/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0024/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0024/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0024/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0025/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0025/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0025/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0026/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0026/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0026/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0027/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0027/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0027/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0028/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0028/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0028/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0029/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0029/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0029/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0030/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0030/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0030/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0031/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0031/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0031/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0032/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0032/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0032/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0033/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0033/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0033/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0034/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0034/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0034/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0035/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0035/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0035/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0036/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0036/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0036/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0037/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0037/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0037/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0038/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0038/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0038/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0039/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0039/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0039/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0040/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0040/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0040/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0041/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0041/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0041/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0042/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0042/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0042/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0043/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0043/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0043/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0044/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0044/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0044/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0045/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0045/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0045/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0046/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0046/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0046/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0047/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0047/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0047/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0048/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0048/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0048/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0049/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0049/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0049/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0050/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0050/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0050/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0051/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0051/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0051/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0052/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0052/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0052/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0053/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0053/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0053/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0054/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0054/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0054/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0055/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0055/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0055/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0056/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0056/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0056/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0057/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0057/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0057/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0058/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0058/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0058/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0059/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0059/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0059/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0060/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0060/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0060/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0061/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0061/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0061/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0062/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0062/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0062/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0063/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0063/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0063/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0064/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0064/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0064/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0065/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0065/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0065/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0066/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0066/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0066/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0067/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0067/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0067/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0068/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0068/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0068/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0069/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0069/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0069/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0070/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0070/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0070/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0071/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0071/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0071/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0072/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0072/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0072/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0073/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0073/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0073/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0074/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0074/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0074/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0075/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0075/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0075/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0076/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0076/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0076/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0077/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0077/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0077/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0078/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0078/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0078/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0079/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0079/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0079/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0080/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0080/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0080/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0081/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0081/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0081/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0082/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0082/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0082/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0083/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0083/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0083/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0084/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      },
+      {
+        "path": "snapshot-0084/model-checkpoint.bin",
+        "bytes": 4194304,
+        "sha256": "94af141facdad50b07a424c4c7e90def1f58b5f5f816449399336ad576cb3c35"
+      },
+      {
+        "path": "snapshot-0084/backup-manifest.txt",
+        "bytes": 4194304,
+        "sha256": "2aea32de154c350fa59be65ae48e7332a616010ef3201ded503b36733a7aca69"
+      },
+      {
+        "path": "snapshot-0085/support-events.jsonl",
+        "bytes": 4194304,
+        "sha256": "b864014ee27e50adf945f4ba48b8909a3629cc44526af65f81a0130506c12a51"
+      }
+    ]
+  }
+]

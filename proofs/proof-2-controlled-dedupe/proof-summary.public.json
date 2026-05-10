@@ -1,0 +1,60 @@
+{
+  "proof_id": "proof-2-controlled-dedupe",
+  "title": "Proof #2: Controlled Dedupe",
+  "mode": "controlled dedupe",
+  "created_at_utc": "2026-05-10T04:42:00.506978+00:00",
+  "proof_mode": "dedupe",
+  "target_logical_gb": 1.0,
+  "source_count": 1,
+  "failed_source_count": 0,
+  "analysis": {
+    "file_count": 256,
+    "chunk_count": 512,
+    "unique_chunk_count": 3,
+    "total_bytes": 1073741824,
+    "unique_raw_bytes": 6291456,
+    "duplicate_bytes": 1067450368,
+    "duplicate_byte_ratio": 0.994140625,
+    "compressed_unique_bytes": 39822,
+    "estimated_storage_saved_bytes": 1073702002,
+    "logical_to_compressed_ratio": 26963.533323288633,
+    "chunk_size": 2097152,
+    "compressor": "zlib-3",
+    "elapsed_seconds": 13.273182799999631,
+    "throughput_mb_per_second": 77.14803716860047
+  },
+  "archive": {
+    "archive_bytes": 180224,
+    "elapsed_seconds": 13.839593500000774,
+    "logical_bytes": 1073741824,
+    "logical_to_archive_ratio": 5957.818181818182,
+    "throughput_mb_per_second": 73.99061251328969
+  },
+  "validation": {
+    "ok": true,
+    "issue_count": 0,
+    "issues": [],
+    "file_count": 256,
+    "chunk_count": 3,
+    "referenced_chunks": 512,
+    "elapsed_seconds": 0.05092289999993227
+  },
+  "restore_benchmark": {
+    "mode": "full",
+    "elapsed_seconds": 9.082507199999782,
+    "restored_file_count": 256,
+    "restored_total_bytes": 1073741824,
+    "throughput_mb_per_second": 112.74419909075597
+  },
+  "streaming_benchmark": {
+    "manifest_latency_seconds": 3.7781291999999667,
+    "manifest_bytes": 75446,
+    "chunks_available": 3,
+    "chunks_requested": 3,
+    "chunk_payload_bytes": 39822,
+    "total_chunk_stream_seconds": 0.02482719999989058,
+    "average_chunk_latency_seconds": 0.008275733333296861,
+    "endpoint_shape": "/manifest and /chunks/<id>"
+  },
+  "proof_zip_sha256": "f25c4589df8d2f8f17f30fbd2a32ff81551345e8c021da18bb711d492db129c2"
+}

@@ -1,0 +1,12 @@
+*.gmw
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
